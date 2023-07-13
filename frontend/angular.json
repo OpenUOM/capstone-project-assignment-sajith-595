@@ -70,6 +70,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+            "port":4401,
             "browserTarget": "capstone-frontend:build",
             "proxyConfig": "./proxy.conf.json"
           },
